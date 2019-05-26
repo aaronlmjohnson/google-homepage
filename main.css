@@ -48,8 +48,28 @@ table {
 }
 
 /*My styling*/
+body{
+  margin: 20px 10px;
 
+}
+#navbar ul{
+  overflow: hidden;
+  font-size: 12px;
+}
+ #navbar li{
+  float: left;
+  padding: 5px 15px;
 
-li{
-  display:inline;
+}
+#navbar .right-nav{
+  float: right;
+}
+ #navbar li a{
+  display: block;
+  color: rgb(34, 31, 31);
+  font-family: Arial;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+
 }
