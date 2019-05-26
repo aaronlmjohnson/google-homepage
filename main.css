@@ -49,7 +49,8 @@ table {
 
 /*My styling*/
 body{
-  margin: 20px 10px;
+  margin: 20px 20px;
+
 
 }
 #navbar ul{
@@ -58,7 +59,7 @@ body{
 }
  #navbar li{
   float: left;
-  padding: 5px 15px;
+  padding-right: 20px;
 
 }
 #navbar .right-nav{
@@ -72,4 +73,12 @@ body{
   text-decoration: none;
   letter-spacing: 0.2px;
 
+}
+
+#navbar .sign-in{
+  padding: 10px; 
+  font-weight: bold;
+  color: white;
+  background-color:rgb(51, 100, 172);
+  border-radius: 2px;
 }
