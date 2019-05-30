@@ -78,7 +78,7 @@ body{
 
 }
 
-#navbar .hover:hover{
+ .hover:hover{
   text-decoration: underline;
 }
 #navbar .right-nav link i{
@@ -110,3 +110,60 @@ body{
   text-align: center;
   margin-top: 135px;
 }
+
+#searchbar input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 45px;
+  width: 580px;
+  padding: 0 30px;
+  border-radius: 60px;
+  border-style: none;
+  box-shadow: 1px 1px 6px rgb(139, 139, 139);
+ 
+}
+#searchbar #buttons{
+  text-align: center;
+  margin-top: 30px;
+}
+#searchbar #buttons input[type="submit"] {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  background-color: rgb(240, 238, 238);
+  color: rgb(78, 78, 78);
+}
+footer{
+  position: absolute;
+  margin-top: 180px;
+  height: 40px;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(240, 238, 238); 
+}
+footer ul{
+  overflow: hidden;
+  padding: 15px 0 10px 20px;
+}
+
+footer ul li{
+  float: left;
+  padding-right: 20px;
+}
+
+footer .right-nav{
+  float: right;
+}
+footer li a{
+  display: block;
+  color: rgb(100, 99, 99);
+  font-family: Arial;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+}
+
